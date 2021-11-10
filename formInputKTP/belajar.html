@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form action="test.php" method=post>
+    <center>
+    <h1>Form Data Mahasiswa</h1>
+    <hr>
+    <table>
+        <tr>
+            <td width="150">Nama Lengkap</td>
+            <td>: <input type="text" name="nama" placeholder="Masukan Nama" size="20"></td>
+        </tr>
+        <tr>
+            <td width="150">Jenis Kelamin</td>
+            <td>
+                :<input type="radio" name="jk" value="pria">Pria
+                <input type="radio" name="jk" value="perempuan">Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td>Hobby</td>
+            <td>:<input type="checkbox" name="musik" value="musik">Musik</td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td>:<input type="checkbox" name="jalan" value="games">Game</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>:<input type="checkbox" name="baca" value="baca">Baca</td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+                <td>:
+                    <select name="agama" id="">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>Asal Sekolah<td>: <input type="text" name="" id="" placeholder="Asal Sekolah"></td></td></tr>
+            <tr><td>keterangan<td>: <textarea name="" id="" cols="40" rows="5" placeholder="Masukan Keterangan"></textarea></tr>
+    </table>
+    <hr>
+    <input type="submit" value="kirim">
+    <input type="reset" value="reset">
+    </form>
+</body>
+</html>
